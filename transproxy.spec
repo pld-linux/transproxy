@@ -17,7 +17,7 @@ so that the cache host knows what web server to fetch the document
 from. Tcp_wrappers is used to provide host access control.
 
 %description -l pl
-tproxy akceptuje pro¶by HTTP i przekazuje je prawidziwemy proxy z
+tproxy akceptuje pro¶by HTTP i przekazuje je prawdziwemu proxy z
 cache dyskowym. Je¶li pro¶ba HTTP zosta³a prze¼roczy¶cie przekierowana
 adres URL jest przepisywany tak by host cache wiedzia³ sk±d pobieraæ
 dokumenty. Do kontroli dostêpu nale¿y u¿yæ tcpd.
