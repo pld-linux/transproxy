@@ -27,7 +27,7 @@ dokumenty. Do kontroli dostêpu nale¿y u¿yæ tcpd.
 %setup -q
 
 %build
-%{__make} CFLAGS="%{?debug:-O -g}%{!?debug:$RPM_OPT_FLAGS}"
+%{__make} CFLAGS="%{?debug:-O0 -g}%{!?debug:$RPM_OPT_FLAGS}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
