@@ -1,7 +1,7 @@
 Summary:	Transparent proxy without cache
 Summary(pl):	Prze¼roczyste proxy bez cache
 Name:		transproxy
-Version:	1.4
+Version:	1.5
 Release:	1
 License:	GPL
 Group:		Networking/Daemons
