@@ -5,8 +5,6 @@ Version:	1.4
 Release:	1
 License:	GPL
 Group:		Networking/Daemons
-Group(de):	Netzwerkwesen/Server
-Group(pl):	Sieciowe/Serwery
 Source0:	ftp://ftp.nlc.net.au/pub/unix/transproxy/%{name}-%{version}.tgz
 URL:		http://www.transproxy.nlc.net.au/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
