@@ -1,7 +1,7 @@
 Summary:	Transparent proxy without cache
 Summary(pl):	Prze¼roczyste proxy bez cache
 Name:		transproxy
-Version:	1.3
+Version:	1.4
 Release:	1
 License:	GPL
 Group:		Networking/Daemons
@@ -31,8 +31,8 @@ dokumenty. Do kontroli dostêpu nale¿y u¿yæ tcpd.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT{%{_sbindir},%{_mandir}/man8}
 
-install -d	$RPM_BUILD_ROOT{%{_sbindir},%{_mandir}/man8}
 install tproxy	$RPM_BUILD_ROOT%{_sbindir}
 install *.8	$RPM_BUILD_ROOT%{_mandir}/man8
 
