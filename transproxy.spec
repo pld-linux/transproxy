@@ -1,5 +1,5 @@
 Summary:	Transparent proxy without cache
-Summary(pl.UTF-8):   Przezroczyste proxy bez cache
+Summary(pl.UTF-8):	Przezroczyste proxy bez cache
 Name:		transproxy
 Version:	1.5
 Release:	1
