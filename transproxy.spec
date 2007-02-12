@@ -1,5 +1,5 @@
 Summary:	Transparent proxy without cache
-Summary(pl):	Przezroczyste proxy bez cache
+Summary(pl.UTF-8):   Przezroczyste proxy bez cache
 Name:		transproxy
 Version:	1.5
 Release:	1
@@ -16,11 +16,11 @@ HTTP request has been transparently re-directed, the URL is re-written
 so that the cache host knows what web server to fetch the document
 from. Tcp_wrappers is used to provide host access control.
 
-%description -l pl
-tproxy akceptuje pro∂by HTTP i przekazuje je prawdziwemu proxy z
-cache dyskowym. Je∂li pro∂ba HTTP zosta≥a przezroczy∂cie przekierowana
-adres URL jest przepisywany tak by host cache wiedzia≥ sk±d pobieraÊ
-dokumenty. Do kontroli dostÍpu naleøy uøyÊ tcpd.
+%description -l pl.UTF-8
+tproxy akceptuje pro≈õby HTTP i przekazuje je prawdziwemu proxy z
+cache dyskowym. Je≈õli pro≈õba HTTP zosta≈Ça przezroczy≈õcie przekierowana
+adres URL jest przepisywany tak by host cache wiedzia≈Ç skƒÖd pobieraƒá
+dokumenty. Do kontroli dostƒôpu nale≈ºy u≈ºyƒá tcpd.
 
 %prep
 %setup -q
